@@ -1,0 +1,73 @@
+{
+  "_meta": {
+    "template_version": 0
+  },
+  "fixtures": [
+    {
+      "name": "inboxclarity",
+      "path": "/v1/products",
+      "method": "post",
+      "params": {
+        "name": "InboxClarity",
+        "description": "InboxClarity that keep you informed.",
+        "metadata": {
+          "app_code": "inboxclarity"
+        }
+      }
+    },
+    {
+      "name": "price_free",
+      "path": "/v1/prices",
+      "method": "post",
+      "params": {
+        "product": "${inboxclarity:id}",
+        "currency": "usd",
+        "billing_scheme": "per_unit",
+        "unit_amount": 0,
+        "recurring": {
+          "interval": "month",
+          "interval_count": 1
+        },
+        "metadata": {
+          "app_code": "inboxclarity"
+        }
+      }
+    },
+    {
+      "name": "price_paid_month",
+      "path": "/v1/prices",
+      "method": "post",
+      "params": {
+        "product": "${inboxclarity:id}",
+        "currency": "usd",
+        "billing_scheme": "per_unit",
+        "unit_amount": 2000,
+        "recurring": {
+          "interval": "month",
+          "interval_count": 1
+        },
+        "metadata": {
+          "app_code": "inboxclarity"
+        }
+      }
+    },
+    {
+      "name": "price_paid_year",
+      "path": "/v1/prices",
+      "method": "post",
+      "params": {
+        "product": "${inboxclarity:id}",
+        "currency": "usd",
+        "billing_scheme": "per_unit",
+        "unit_amount": 15000,
+        "recurring": {
+          "interval": "year",
+          "interval_count": 1
+        },
+        "metadata": {
+          "app_code": "inboxclarity"
+        }
+      }
+    }
+  ]
+}

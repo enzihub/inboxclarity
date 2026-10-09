@@ -1,0 +1,50 @@
+[
+  {
+    "from": "Priya Raman <priya@northwind.example.com>",
+    "subject": "Re: Q3 partner launch - final copy needed by Thu",
+    "date": "Tue, 14 Oct 2025 08:12:00 +0000",
+    "body": "Hi Maya,\n\nWe're on track for the partner launch on the 21st. The only blocker is the landing page copy. Can you sign it off by Thursday 5pm? Legal has already approved the pricing section.\n\nThanks,\nPriya"
+  },
+  {
+    "from": "Billing Desk <billing@ledgerly.test>",
+    "subject": "Duplicate charge on invoice #4471",
+    "date": "Tue, 14 Oct 2025 07:40:00 +0000",
+    "body": "Hello,\n\nOur customer Oakridge Dental was charged twice for October (2 x $480). They want a refund before their renewal on Friday or they will pause the account.\n\nBilling Desk"
+  },
+  {
+    "from": "Tom Becker <tom@northwind.example.com>",
+    "subject": "Two contractors start Monday",
+    "date": "Mon, 13 Oct 2025 18:05:00 +0000",
+    "body": "Quick heads-up: Lena and Arjun start on Monday as front-end contractors. They need laptops, repo access and a 30 min onboarding call. I have booked 10am."
+  },
+  {
+    "from": "Harbour Hall Events <bookings@harbourhall.example.org>",
+    "subject": "Hold on 6 Nov offsite expires Thursday",
+    "date": "Mon, 13 Oct 2025 15:30:00 +0000",
+    "body": "Dear Maya,\n\nWe are holding the Riverside Room for 6 November (24 guests). Please confirm with a 20% deposit by Thursday or the hold will be released.\n\nKind regards,\nHarbour Hall Events"
+  },
+  {
+    "from": "Studio Fern <hello@studiofern.example.com>",
+    "subject": "March invoice ready for approval",
+    "date": "Mon, 13 Oct 2025 11:02:00 +0000",
+    "body": "Hi! The brand refresh invoice ($3,200) is ready in the portal. Approval by Friday keeps the next sprint on schedule."
+  },
+  {
+    "from": "Grace Liu <grace@northwind.example.com>",
+    "subject": "Signups up 18% after onboarding change",
+    "date": "Mon, 13 Oct 2025 09:45:00 +0000",
+    "body": "Good news - the shorter onboarding flow lifted weekly signups by 18% and cut drop-off on step 2 by a third. Full numbers in the dashboard. Next I want to test the same change on mobile."
+  },
+  {
+    "from": "Daniel Ortiz <daniel@northwind.example.com>",
+    "subject": "Staging is down - need a decision on the database upgrade",
+    "date": "Mon, 13 Oct 2025 08:20:00 +0000",
+    "body": "Staging has been down since last night after the database upgrade. Rolling back costs a day; fixing forward is riskier but faster. I need a go/no-go from you by noon today."
+  },
+  {
+    "from": "Mega Deals <promo@megadeals.example.net>",
+    "subject": "FLASH SALE: 70% off everything!!!",
+    "date": "Mon, 13 Oct 2025 06:00:00 +0000",
+    "body": "Don't miss out! Click now for unbeatable savings on gadgets you don't need."
+  }
+]
