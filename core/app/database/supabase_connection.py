@@ -30,6 +30,6 @@ async def get_supabase_client() -> Client:
 
 
 # TODO: This function can be refactored to get user's subscription entitlements/features later on.
-# TODO: handle whatever free/premium features are present for focusgate
+# TODO: handle free/premium features per plan
 
 

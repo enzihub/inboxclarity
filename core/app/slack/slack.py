@@ -53,7 +53,7 @@ async def generate_slack_summary(user_token:UserToken):
     try:
         # Get the user's Slack token first
         # supabase = await get_supabase_client()
-        # response = await supabase.table('focusgate_user_slack_tokens') \
+        # response = await supabase.table('user_slack_tokens') \
         #     .select('s_provider_token') \
         #     .eq('id', user_token.id) \
         #     .single() \
@@ -67,7 +67,7 @@ async def generate_slack_summary(user_token:UserToken):
 
         prompt = SLACK_SUMMARY_PROMPT.format(content=processed_messages,
                                              date=datetime.now(),
-                                             user_name="FocusGate")
+                                             user_name="InboxClarity")
         response = model.generate_content(prompt)
         raw_text = response.text.strip()
         cleaned_text = raw_text
@@ -189,7 +189,7 @@ async def get_all_user_messages(token: UserToken) -> List[Dict]:
     try:
         # Get user token from Supabase
         supabase = await get_supabase_client()
-        # response = await supabase.table('focusgate_user_slack_tokens') \
+        # response = await supabase.table('user_slack_tokens') \
         #     .select('s_provider_token') \
         #     .eq('id', user_id) \
         #     .single() \
