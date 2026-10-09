@@ -1,12 +1,9 @@
 <div align="center">
 
-<a href="https://enzihub.github.io/inboxclarity/">
   <img src="assets/hero.png" width="1000" alt="InboxClarity: your whole inbox, read for you by 7 AM. Shown with a real Morning Brief email rendered by the app from an invented inbox.">
-</a>
 
 <br>
 
-**[Website](https://enzihub.github.io/inboxclarity/)** ·
 **[Demo](#see-it-work)** ·
 **[Features](#features)** ·
 **[How it works](#how-it-works)** ·
